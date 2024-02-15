@@ -1,0 +1,38 @@
+body {
+  background-color: #D8DDDE;
+  font-family: Arial, sans-serif;
+  color: #8C271E;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #8C271E;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  line-height: 1.6;
+  font-size: large;
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 2rem;
+}
