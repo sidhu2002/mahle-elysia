@@ -1,0 +1,141 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #8C271E;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    color: #ccc;
+  }
+  
+  .navbar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .bookmark {
+    position: absolute; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    right: 0; 
+    margin: 0.5rem; 
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .container {
+    padding: 1rem;
+  }
+  
+  .container input[type="text"] {
+    margin: 0 auto;
+    max-width: 100%;
+    width: calc(100% - 1rem);
+    height: 70px;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+}
+
+  
+ 
+  .container button {
+    
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #ff6347;
+  }
+  
+
+  .recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    gap: 1rem;
+  }
+  
+  .recipe-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  .recipe-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .recipe-item button {
+    margin-top: 0.5rem; 
+  }
+  .recipe-item p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  .recipe-link button {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+
+  .pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ff6347;
+  }
+  
+ 
+  .bookmarks-link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: lightcoral;
+  }
+  
+  .bookmarks-link:hover {
+    text-decoration: underline;
+  }
+
+  .container input[type="checkbox"] {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5); 
+    -ms-transform: scale(1.5); 
+    -o-transform: scale(1.5); 
+    transform: scale(1.5); 
+    margin-right: 0.5rem; 
+    font-size: 1.2rem;
+  }
